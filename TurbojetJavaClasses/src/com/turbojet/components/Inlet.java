@@ -69,5 +69,12 @@ public class Inlet {
 	public void setAth(double ath) {
 		Ath = ath;
 	}
+
+	// Metodo toString per stampa di tutti i campi della presa dinamica...
+	@Override
+	public String toString() {
+		return "Inlet [flowIn=" + flowIn + ", flowOut=" + flowOut + ", Ain=" + Ain + ", Aout=" + Aout + ", Ath=" + Ath
+				+ ", Din=" + Din + ", Dout=" + Dout + "]";
+	}
 	
 }
